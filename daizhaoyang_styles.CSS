@@ -1,0 +1,34 @@
+nav{
+    padding: 10px;
+    text-align: center;
+}
+header{
+    color: white;
+    text-align: center;
+}
+
+.box {  
+        width: 1450px;  
+        padding: 10px;  
+        border: 5px solid black;  
+        margin: 20px;  
+        background-color: lightblue;
+        margin-left: auto;  
+        margin-right: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    text-align: center;
+}
+p{
+    color: white;
+}
+@media (max-width: 600px) {  
+    /* 当视口宽度小于或等于600px时应用的样式 */  
+    img.custom-logo {  
+        width: 100%; /* 使logo适应屏幕宽度 */  
+        height: auto; /* 保持原始比例 */  
+    }  

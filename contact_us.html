@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>联系与投诉</title>
+	<meta charset="utf-8">
+<link rel="icon" href="图片\logo.jpg" type="image/x-icon">
+	<style type="text/css">
+
+		#main {
+			text-align: center;
+		}
+
+		#main form{
+			margin-bottom: 1.5em;
+		}
+		
+		#main > form > label,input{
+			font-size: 1.5em;
+			color: black;
+		}
+
+		#main > form > input,textarea{
+			border: 2px solid black;
+		}
+
+		textarea{
+			width: 600px;
+			height: 300px;
+			font-size: 1.5em;
+		}
+
+		input[type=submit]{
+			width: 600px;
+			height: 40px;
+		}
+
+		#main > iframe{
+			width: 600px;
+			height: 600px;
+		}
+		*{
+			color: white;
+		}
+		input,textarea{
+			color: black;
+		}
+		body{
+			background-color: black;
+		}
+	.try{
+      position: absolute;
+      color: white;
+      
+      display: flex;
+      top: 40px;
+      left: 100px;
+    }
+    a{
+    	text-decoration: none;
+    	margin: 10px;
+    }
+	</style>
+
+
+</head>
+<body>
+
+	<!-- 网页头部 - 导航条 -->
+	<div class="try">
+    <nav>
+        <a href="Home.html">首页</a> 
+        <a href="about_us.html">关于我们</a> 
+        <a href="index.html">sponsors.html</a> 
+        <a href="shop.html">商店</a>  
+        <a href="contact_us.html">联系我们</a> 
+    </nav></div>
+
+	<!-- 网页主体 -->
+
+	<main id="main">
+		<h2>联系我们</h2>
+		<form action="#" method="post">
+			<label>您的姓名:</label>
+			<input type="text" name="customer_name" placeholder="请输入您的姓名">
+			<label>您的邮箱:</label>
+			<input type="email" name="customer_email" placeholder="请输入您的邮箱">
+			<hr>
+			<label>您的投诉或建议</label><br>
+			<textarea rows="20" cols="80" name="content" placeholder="请输入您的投诉或建议"></textarea><br>
+			<input type="submit" value="提交">
+		</form>
+		<h2>门店地址</h2>
+		<hr>
+		<iframe src="map.html" width="600" height="400"></iframe>
+	</main>
+
+	<!-- 网页脚部 -->
+	<footer id="footer">
+		<h3>友情链接</h3>
+		<ul>
+			<li><a href="#">链接一</a></li>
+			<li><a href="#">链接二</a></li>
+			<li><a href="#">链接三</a></li>
+			<li><a href="#">链接四</a></li>
+		</ul>
+		<p>版权&联系方式</p>
+	</footer>
+
+
+</body>
+</html>
